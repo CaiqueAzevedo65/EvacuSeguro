@@ -75,17 +75,17 @@ export default function Home() {
                 <div className="container py-5">
                     <div className="row align-items-center">
                         <div className="col-md-6 col-lg-6">
-                            <h2 className="fw-bold text-dark mb-3">
+                            <h2 className="fw-bold text-white mb-3">
                                 Sobre o Projeto
-                                <div style={{ width: '60px', height: '3px', backgroundColor: '#2e5cb8', marginTop: '5px' }}></div>
+                                <div style={{ width: '60px', height: '3px', backgroundColor: 'white', marginTop: '5px' }}></div>
                             </h2>
-                            <p className="text-muted fs-5">
+                            <p className="text-white fs-5">
                                 O EvacuSeguro é uma iniciativa dedicada a salvar vidas através do planejamento e orientação para evacuação em situações de desastres naturais e emergências.
                             </p>
-                            <p className="text-muted">
+                            <p className="text-white">
                                 Nossa missão é fornecer informações precisas e atualizadas sobre rotas de evacuação seguras, pontos de encontro e procedimentos de emergência para comunidades em áreas de risco.
                             </p>
-                            <p className="text-muted">
+                            <p className="text-white">
                                 Trabalhamos em parceria com autoridades locais, especialistas em gestão de desastres e comunidades para desenvolver planos de evacuação eficientes e acessíveis a todos.
                             </p>
                         </div>
