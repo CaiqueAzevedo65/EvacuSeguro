@@ -50,6 +50,22 @@
 /* Estilo para os ícones */
 .bi {
   vertical-align: middle;
+  display: inline-block;
+  font-family: 'bootstrap-icons' !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Estilo específico para os ícones de emergência */
+.emergency-icon {
+  font-size: 1.75rem !important;
+  margin-bottom: 0.5rem;
+  display: block !important;
 }
 
 /* Estilo para o placeholder do mapa */

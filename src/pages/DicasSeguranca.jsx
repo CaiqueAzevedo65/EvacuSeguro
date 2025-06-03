@@ -64,31 +64,31 @@ export default function DicasSeguranca() {
             <h4 className="text-center mb-4">Números de Emergência</h4>
             <div className="row text-center">
               <div className="col-md-3 mb-3">
-                <div className="p-3 border rounded bg-light">
-                  <i className="bi bi-ambulance text-danger fs-3 mb-2"></i>
-                  <h5>SAMU</h5>
-                  <p className="mb-0 fs-5">192</p>
+                <div className="p-3 border rounded bg-light h-100 d-flex flex-column align-items-center">
+                  <i className="bi bi-heart-pulse text-danger emergency-icon"></i>
+                  <h5 className="text-center">SAMU</h5>
+                  <p className="mb-0 fs-5 fw-bold">192</p>
                 </div>
               </div>
               <div className="col-md-3 mb-3">
-                <div className="p-3 border rounded bg-light">
-                  <i className="bi bi-shield-check text-primary fs-3 mb-2"></i>
-                  <h5>Defesa Civil</h5>
-                  <p className="mb-0 fs-5">199</p>
+                <div className="p-3 border rounded bg-light h-100 d-flex flex-column align-items-center">
+                  <i className="bi bi-shield-check text-primary emergency-icon"></i>
+                  <h5 className="text-center">Defesa Civil</h5>
+                  <p className="mb-0 fs-5 fw-bold">199</p>
                 </div>
               </div>
               <div className="col-md-3 mb-3">
-                <div className="p-3 border rounded bg-light">
-                  <i className="bi bi-fire text-danger fs-3 mb-2"></i>
-                  <h5>Bombeiros</h5>
-                  <p className="mb-0 fs-5">193</p>
+                <div className="p-3 border rounded bg-light h-100 d-flex flex-column align-items-center">
+                  <i className="bi bi-fire text-danger emergency-icon"></i>
+                  <h5 className="text-center">Bombeiros</h5>
+                  <p className="mb-0 fs-5 fw-bold">193</p>
                 </div>
               </div>
               <div className="col-md-3 mb-3">
-                <div className="p-3 border rounded bg-light">
-                  <i className="bi bi-shield-exclamation text-warning fs-3 mb-2"></i>
-                  <h5>Polícia Militar</h5>
-                  <p className="mb-0 fs-5">190</p>
+                <div className="p-3 border rounded bg-light h-100 d-flex flex-column align-items-center">
+                  <i className="bi bi-shield-exclamation text-warning emergency-icon"></i>
+                  <h5 className="text-center">Polícia Militar</h5>
+                  <p className="mb-0 fs-5 fw-bold">190</p>
                 </div>
               </div>
             </div>
