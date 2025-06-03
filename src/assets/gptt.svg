@@ -1,0 +1,62 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="512" height="512" fill="#e0f5ff"></rect>
+
+  <!-- Ruas curvas simuladas -->
+  <g stroke="#cce6f7" stroke-width="10" fill="none">
+    <path d="M50 100 C100 90, 200 130, 300 120 S450 130, 500 110"></path>
+    <path d="M0 200 C100 190, 180 230, 280 210 S400 200, 500 230"></path>
+    <path d="M0 300 C120 280, 240 320, 360 310 S460 300, 512 320"></path>
+    <path d="M50 400 C150 390, 250 410, 350 400 S450 410, 512 390"></path>
+    <path d="M100 0 C120 100, 140 300, 160 512"></path>
+    <path d="M250 0 C260 80, 270 220, 280 512"></path>
+    <path d="M400 0 C420 120, 440 280, 460 512"></path>
+  </g>
+
+  <!-- Rota angular (com curvas de 90° à direita) -->
+  <path d="M60 460 L200 460 L200 320 L340 320 L340 200 L500 200" stroke="#003f7d" stroke-width="16" fill="none" stroke-linecap="round"></path>
+
+  <!-- Asterisco no início -->
+  <g transform="translate(60,460)">
+    <circle cx="0" cy="0" r="12" fill="#b3dcff"></circle>
+    <line x1="-8" y1="0" x2="8" y2="0" stroke="#ffffff" stroke-width="2"></line>
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#ffffff" stroke-width="2"></line>
+    <line x1="-6" y1="-6" x2="6" y2="6" stroke="#ffffff" stroke-width="2"></line>
+    <line x1="-6" y1="6" x2="6" y2="-6" stroke="#ffffff" stroke-width="2"></line>
+  </g>
+
+  <!-- Asterisco no fim -->
+  <g transform="translate(500,200)">
+    <circle cx="0" cy="0" r="12" fill="#b3dcff"></circle>
+    <line x1="-8" y1="0" x2="8" y2="0" stroke="#ffffff" stroke-width="2"></line>
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#ffffff" stroke-width="2"></line>
+    <line x1="-6" y1="-6" x2="6" y2="6" stroke="#ffffff" stroke-width="2"></line>
+    <line x1="-6" y1="6" x2="6" y2="-6" stroke="#ffffff" stroke-width="2"></line>
+  </g>
+
+  <!-- Ícone pedestre (corrigido: pessoa caminhando) -->
+  <g transform="translate(340,30)">
+    <rect width="90" height="90" rx="12" fill="#0066cc"></rect>
+    <circle cx="45" cy="25" r="7" fill="#e0f0ff"></circle>
+    <path d="M45 32 L45 50" stroke="#e0f0ff" stroke-width="5" stroke-linecap="round"></path>
+    <path d="M45 50 L40 65" stroke="#e0f0ff" stroke-width="5" stroke-linecap="round"></path>
+    <path d="M45 50 L52 65" stroke="#e0f0ff" stroke-width="5" stroke-linecap="round"></path>
+    <path d="M45 40 L38 45" stroke="#e0f0ff" stroke-width="5" stroke-linecap="round"></path>
+    <path d="M45 40 L52 45" stroke="#e0f0ff" stroke-width="5" stroke-linecap="round"></path>
+  </g>
+
+  <!-- Ícone alerta (triângulo com exclamação) -->
+  <g transform="translate(340,140)">
+    <polygon points="45,10 80,80 10,80" fill="#007acc"></polygon>
+    <line x1="45" y1="30" x2="45" y2="58" stroke="#e0f0ff" stroke-width="5"></line>
+    <circle cx="45" cy="66" r="4" fill="#e0f0ff"></circle>
+  </g>
+
+  <!-- Ícone de informação (asterisco grande) -->
+  <g transform="translate(340,270)">
+    <circle cx="45" cy="45" r="40" fill="#3399ff"></circle>
+    <line x1="45" y1="20" x2="45" y2="70" stroke="#e0f0ff" stroke-width="5"></line>
+    <line x1="25" y1="30" x2="65" y2="60" stroke="#e0f0ff" stroke-width="5"></line>
+    <line x1="25" y1="60" x2="65" y2="30" stroke="#e0f0ff" stroke-width="5"></line>
+  </g>
+</svg>

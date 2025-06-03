@@ -1,0 +1,24 @@
+.header {
+    background-color: #2e5cb8;
+    width: 100%;
+    height: 10vh;
+}
+
+.header-title, .header-nav {
+    width: 50vw;
+    height: 8vh;
+    
+}
+
+.logo {
+    height: 8vh;
+    margin-left: 10vw;
+}
+
+.logoo, .logo-name {
+    font-size: x-large;
+}
+
+.pages {
+    margin-right: 10vw;
+}

@@ -1,0 +1,109 @@
+.presentation-space {
+    height: 90vh;
+}
+
+.top-space {
+    height: 15vh;
+    width: 100%;
+}
+
+.presentation-content {
+    height: 60vh;
+}
+
+.bottom-space {
+    height: 15vh;
+    width: 100%;
+}
+
+.about-title {
+    height: 26vh;
+    width: 100%;
+}
+
+.about-text {
+    height: 18vh;
+    width: 100%;
+}
+
+.about-buttons {
+    height: 16vh;
+    width: 100%;
+}
+
+.top-image {
+    height: 5vh;
+    width: 100%;
+}
+
+.image-svg {
+    height: 50vh;
+    width: 100%;
+}
+
+.bottom-image {
+    height: 5vh;
+    width: 100%;
+}
+
+.Routemap {
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+
+.title-p {
+    font-size: 42px;
+}
+
+.image2-space, .danger {
+    height: 54vh;
+    width: 100%;
+}
+
+.check-pages {
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1c2b45;
+}
+
+.subtitle {
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background-color: #2e5cb8;
+  margin: 1rem auto;
+}
+
+.card-custom {
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+}
+
+.btn-custom {
+  background-color: #2e5cb8;
+  color: white;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #244a95;
+}
+
+.space-abcp {
+    height: 20vh;
+}
+
