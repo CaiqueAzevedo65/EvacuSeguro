@@ -34,21 +34,21 @@ export default function DicasSeguranca() {
 
   return (
     <div className="page-container">
-      <div className="container py-5">
-        <h1 className="text-center mb-5">Dicas de Segurança</h1>
+      <div className="container">
+        <h1 className="section-title text-center">Dicas de Segurança</h1>
         
         <div className="row g-4">
           {dicas.map((categoria, index) => (
             <div key={index} className="col-md-4">
-              <div className="card h-100 shadow-sm">
-                <div className="card-header bg-primary text-white">
+              <div className="card card-hover h-100 shadow-soft">
+                <div className="card-header">
                   <h5 className="mb-0">{categoria.titulo}</h5>
                 </div>
                 <div className="card-body">
                   <ul className="list-group list-group-flush">
                     {categoria.itens.map((item, i) => (
                       <li key={i} className="list-group-item">
-                        <i className="bi bi-check-circle text-success me-2"></i>
+                        <i className="bi bi-check-circle text-success"></i>
                         {item}
                       </li>
                     ))}
@@ -59,36 +59,36 @@ export default function DicasSeguranca() {
           ))}
         </div>
 
-        <div className="card mt-5 shadow-sm">
+        <div className="card card-hover mt-5 shadow-soft">
           <div className="card-body">
-            <h4 className="text-center mb-4">Números de Emergência</h4>
-            <div className="row text-center">
-              <div className="col-md-3 mb-3">
-                <div className="p-3 border rounded bg-light h-100 d-flex flex-column align-items-center">
+            <h2 className="section-title text-center">Números de Emergência</h2>
+            <div className="row">
+              <div className="col-md-3 mb-4">
+                <div className="emergency-card">
                   <i className="bi bi-heart-pulse text-danger emergency-icon"></i>
-                  <h5 className="text-center">SAMU</h5>
-                  <p className="mb-0 fs-5 fw-bold">192</p>
+                  <h5 className="emergency-title">SAMU</h5>
+                  <p className="emergency-number">192</p>
                 </div>
               </div>
-              <div className="col-md-3 mb-3">
-                <div className="p-3 border rounded bg-light h-100 d-flex flex-column align-items-center">
+              <div className="col-md-3 mb-4">
+                <div className="emergency-card">
                   <i className="bi bi-shield-check text-primary emergency-icon"></i>
-                  <h5 className="text-center">Defesa Civil</h5>
-                  <p className="mb-0 fs-5 fw-bold">199</p>
+                  <h5 className="emergency-title">Defesa Civil</h5>
+                  <p className="emergency-number">199</p>
                 </div>
               </div>
-              <div className="col-md-3 mb-3">
-                <div className="p-3 border rounded bg-light h-100 d-flex flex-column align-items-center">
+              <div className="col-md-3 mb-4">
+                <div className="emergency-card">
                   <i className="bi bi-fire text-danger emergency-icon"></i>
-                  <h5 className="text-center">Bombeiros</h5>
-                  <p className="mb-0 fs-5 fw-bold">193</p>
+                  <h5 className="emergency-title">Bombeiros</h5>
+                  <p className="emergency-number">193</p>
                 </div>
               </div>
-              <div className="col-md-3 mb-3">
-                <div className="p-3 border rounded bg-light h-100 d-flex flex-column align-items-center">
+              <div className="col-md-3 mb-4">
+                <div className="emergency-card">
                   <i className="bi bi-shield-exclamation text-warning emergency-icon"></i>
-                  <h5 className="text-center">Polícia Militar</h5>
-                  <p className="mb-0 fs-5 fw-bold">190</p>
+                  <h5 className="emergency-title">Polícia Militar</h5>
+                  <p className="emergency-number">190</p>
                 </div>
               </div>
             </div>

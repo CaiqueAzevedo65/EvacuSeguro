@@ -1,16 +1,88 @@
-.header-space {
-  background: linear-gradient(to right, #2c59b1, #1e3763);
-  min-height: 100vh;
-  width: 100%;
-  margin: 0;
-  padding-top: 70px; /* Altura do header fixo */
-  font-family: 'Poppins', sans-serif;
-  box-sizing: border-box;
+/* Estilos específicos do aplicativo */
+
+/* Container principal */
+.app-container {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
 }
 
-/* Garante que o conteúdo não fique escondido atrás do header fixo */
-@media (max-width: 992px) {
-  .header-space {
-    padding-top: 70px;
+/* Conteúdo principal */
+.main-content {
+  padding-top: 70px; /* Altura do header fixo */
+  background-color: var(--light);
+}
+
+/* Seções */
+section {
+  padding: 5rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Botões personalizados */
+.btn {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 0.75rem 1.75rem;
+  border-radius: var(--border-radius-pill);
+  transition: var(--transition-base);
+  box-shadow: var(--shadow);
+}
+
+.btn-primary {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn-outline-light:hover {
+  color: var(--primary);
+  background: white;
+}
+
+/* Cards personalizados */
+.card {
+  border: none;
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  transition: var(--transition-base);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Utilidades específicas */
+.shadow-sm { box-shadow: var(--shadow-sm) !important; }
+
+/* Responsividade específica */
+@media (max-width: 991.98px) {
+  section {
+    padding: 4rem 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  section {
+    padding: 3rem 0;
+  }
+  
+  .btn {
+    padding: 0.65rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  section {
+    padding: 2.5rem 0;
   }
 }
