@@ -1,5 +1,16 @@
 .header-space {
-    background: linear-gradient(to right, #2c59b1, #1e3763);
-    width: 100%;
-    height: 100vh;
+  background: linear-gradient(to right, #2c59b1, #1e3763);
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding-top: 70px; /* Altura do header fixo */
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Garante que o conteúdo não fique escondido atrás do header fixo */
+@media (max-width: 992px) {
+  .header-space {
+    padding-top: 70px;
+  }
 }
