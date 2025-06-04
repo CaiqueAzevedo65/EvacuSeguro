@@ -1,8 +1,8 @@
-# EvacuSeguro
+# GeoEscape
 
 ![Banner do Projeto](public/banner.png)
 
-O EvacuSeguro é uma aplicação web desenvolvida para auxiliar no planejamento e orientação de rotas de evacuação em situações de emergência e desastres naturais. A plataforma oferece informações sobre rotas seguras, pontos de encontro e dicas de segurança para ajudar comunidades em áreas de risco.
+O GeoEscape é uma aplicação web desenvolvida para auxiliar no planejamento e orientação de rotas de evacuação em situações de emergência e desastres naturais. A plataforma oferece informações sobre rotas seguras, pontos de encontro e dicas de segurança para ajudar comunidades em áreas de risco.
 
 ## 🚀 Funcionalidades
 

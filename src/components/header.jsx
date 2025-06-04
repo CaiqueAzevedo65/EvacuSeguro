@@ -83,7 +83,7 @@ export default function Header() {
         <div className="header-content">
           <Link to="/" className="logo" aria-label="Página Inicial">
             <i className="logoo bi bi-shield-check" aria-hidden="true"></i>
-            <span className="logo-name">EvacuSeguro</span>
+            <span className="logo-name">GeoEscape</span>
           </Link>
 
           <button 

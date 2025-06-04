@@ -178,7 +178,7 @@ export default function Home() {
                             </h2>
                             <div className="about-content">
                                 <p className="lead">
-                                    O EvacuSeguro é uma iniciativa dedicada a salvar vidas através do planejamento e orientação para evacuação em situações de desastres naturais e emergências.
+                                    O GeoEscape é uma iniciativa dedicada a salvar vidas através do planejamento e orientação para evacuação em situações de desastres naturais e emergências.
                                 </p>
                                 <p>
                                     Nossa missão é fornecer informações precisas e atualizadas sobre rotas de evacuação seguras, pontos de encontro e procedimentos de emergência para comunidades em áreas de risco.

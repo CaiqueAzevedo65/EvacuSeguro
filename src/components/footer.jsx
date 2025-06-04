@@ -27,7 +27,7 @@ export default function Footer() {
           <div className="footer-brand">
             <Link to="/" className="footer-logo">
               <i className="bi bi-shield-check"></i>
-              <span className="footer-logo-text">EvacuSeguro</span>
+              <span className="footer-logo-text">GeoEscape</span>
             </Link>
             <p className="footer-description">
               Uma plataforma dedicada a fornecer informações essenciais sobre rotas de fuga e segurança em situações de emergência.
@@ -101,7 +101,7 @@ export default function Footer() {
             </li>
             <li>
               <i className="bi bi-envelope"></i>
-              <a href="mailto:contato@evacue-seguro.com">contato@evacue-seguro.com</a>
+              <a href="mailto:contato@geoescape.com">contato@geoescape.com</a>
             </li>
             <li>
               <i className="bi bi-clock"></i>
@@ -144,7 +144,7 @@ export default function Footer() {
       {/* Direitos autorais */}
       <div className="footer-bottom">
         <p className="copyright mb-0">
-          &copy; {currentYear} EvacuSeguro. Todos os direitos reservados.
+          &copy; {currentYear} GeoEscape. Todos os direitos reservados.
         </p>
       </div>
     </footer>
