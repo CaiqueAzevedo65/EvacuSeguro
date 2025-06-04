@@ -32,6 +32,21 @@
     transition: all 0.3s ease;
 }
 
+.hero-buttons .btn-outline-dark {
+    background-color: white;
+    border-color: black;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.hero-buttons .btn-outline-dark:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 .hero-image {
     position: relative;
     animation: float 6s ease-in-out infinite;
