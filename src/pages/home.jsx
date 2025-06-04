@@ -1,7 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { animateScroll as scroll } from 'react-scroll';
-import RouteImage from '../assets/gptt.svg';
 import '../styles/home.css';
 import '../styles/pages.css';
 
