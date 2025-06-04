@@ -93,9 +93,10 @@ export default function Home() {
                         >
                             <div className="hero-image text-center">
                                 <img 
-                                    src="src/assets/gptt.svg" 
+                                    src="/gptt.svg" 
                                     alt="Mapa com rota de evacuação" 
                                     className="img-fluid" 
+                                    style={{ maxWidth: '100%', height: 'auto' }}
                                 />
                             </div>
                         </div>
