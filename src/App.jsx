@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import './App.css';
 import './styles/pages.css';
@@ -8,15 +8,23 @@ import Home from './pages/home.jsx';
 import RotasSeguras from './pages/RotasSeguras';
 import DicasSeguranca from './pages/DicasSeguranca';
 
-function App() {
-  // Efeito para rolar para o topo ao mudar de rota
+// Componente para rolar para o topo ao mudar de rota
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+  }, [pathname]);
+
+  return null;
+}
+
+function App() {
 
   return (
     <Router>
       <div className="app-container">
+        <ScrollToTop />
         <Header />
         <main className="main-content">
           <Routes>

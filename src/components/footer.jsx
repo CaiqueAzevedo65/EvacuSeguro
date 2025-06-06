@@ -100,8 +100,8 @@ export default function Footer() {
               <a href="tel:+5511999999999">(11) 99999-9999</a>
             </li>
             <li>
-              <i className="bi bi-envelope"></i>
-              <a href="mailto:contato@evacue-seguro.com">contato@geoescape.com</a>
+              <i className="bi bi-envelope"></i
+              <a href="mailto:contato@geoescape.com">contato@geoescape.com</a>
             </li>
             <li>
               <i className="bi bi-clock"></i>
