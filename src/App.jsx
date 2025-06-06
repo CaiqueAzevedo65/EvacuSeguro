@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { useEffect } from 'react';
 import './App.css';
 import './styles/pages.css';
-import Footer from './components/footer.jsx';
-import Header from './components/header.jsx';
+import Footer from './components/Footer/footer.jsx';
+import Header from './components/Header/header.jsx';
 import Home from './pages/home.jsx';
 import RotasSeguras from './pages/RotasSeguras';
 import DicasSeguranca from './pages/DicasSeguranca';
